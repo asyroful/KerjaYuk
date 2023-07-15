@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>UI Mobile</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.2/dist/css/splide.min.css">
+</head>
+<body>
+  <div class="sticky z-10 bg-white top-0 p-4 flex justify-between">
+    <div class="text-xl text-red-500 font-bold">KerjaYuk!</div>
+    <div class="flex items-center">
+      <a href="notif.html" class="relative">
+        <svg class="h-6 w-6" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M6.51485 0.762695C4.91411 0.762695 3.60441 2.07239 3.60441 3.67313C3.60441 5.18656 2.84769 6.55447 1.65441 7.54402C1.05777 8.03879 0.69397 8.7373 0.69397 9.49401H12.3357C12.3357 8.7373 11.9865 8.03879 11.3753 7.54402C10.182 6.55447 9.42529 5.18656 9.42529 3.67313C9.42529 2.07239 8.13014 0.762695 6.51485 0.762695ZM5.05963 10.9492C5.05963 11.7496 5.71448 12.4045 6.51485 12.4045C7.31522 12.4045 7.97007 11.7496 7.97007 10.9492H5.05963Z" fill="black"/>
+        </svg>
+        <div class="h-2 w-2 bg-red-500 rounded-full absolute top-1 right-0.5"></div>
+      </a>        
+    </div>
+  </div>
+  
+  <div class="p-3">
+    <p class="text-sm font-semibold">Hi, Good Morning!</p>
+  </div>
+  <!-- Section Card -->
+  <div class="bg-gradient-to-b from-red-500 to-pink-700 p-4 text-white text-lg rounded-lg mx-3">
+    <div class="flex justify-between">
+      <div class="flex">
+        <div class="w-14 h-14 bg-gray-300 rounded-full mr-2"></div>
+        <div>
+          <p class="font-semibold text-sm">Tabay</p>
+          <p class="font-thin text-xs italic">UI/UX Designer</p>
+        </div>
+      </div>
+      <div class="text-right">
+        <p class="font-thin text-xs italic">Member Since</p>
+        <p class="font-semibold text-lg">01 Juni 2021</p>
+      </div>
+    </div>
+    <div class="flex justify-between mt-2">
+      <div>
+        <p class="font-thin text-xs">Location</p>
+        <p class="font-semibold text-sm">Kantor Sahid</p>
+      </div>
+      <div class="text-right">
+        <p class="font-thin text-xs italic">ICO</p>
+      </div>
+    </div>
+  </div>
+  <!-- Today's Activity -->
+  <div class="mx-3 p-4">
+    <h3 class="font-bold mb-2">Today's activity</h3>
+    <div class="flex justify-between mx-6">
+      <div class="items-center flex flex-col">
+        <svg class="h-8 w-8 mr-2 flex-shrink-0 text-pink-700" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M20 0C31.028 0 40 8.972 40 20C40 31.028 31.028 40 20 40C8.972 40 0 31.028 0 20C0 8.972 8.972 0 20 0ZM20 3C10.626 3 3 10.626 3 20C3 29.374 10.626 37 20 37C29.374 37 37 29.374 37 20C37 10.626 29.374 3 20 3ZM19.3224 10.1908C20.1524 10.1908 20.8224 10.8628 20.8224 11.6908V20.5348L27.6324 24.5948C28.3424 25.0208 28.5764 25.9408 28.1524 26.6528C27.8704 27.1228 27.3724 27.3848 26.8624 27.3848C26.6004 27.3848 26.3364 27.3168 26.0944 27.1748L18.5544 22.6768C18.1024 22.4048 17.8224 21.9148 17.8224 21.3868V11.6908C17.8224 10.8628 18.4944 10.1908 19.3224 10.1908Z" fill="currentColor"/>
+        </svg>          
+        <div class="text-center mt-2">
+          <p class="text-sm font-bold">08.30</p>
+          <p class="text-xs">Check In</p>
+        </div>
+      </div>
+      <div class="items-center flex flex-col">
+        <svg class="h-8 w-8 mr-2 flex-shrink-0 text-pink-700" width="36" height="42" viewBox="0 0 36 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M10.271 0V5.13552H15.4066V5.28959C6.67618 6.52211 0 14.0713 0 23.1098C0 33.0214 8.06277 41.0842 17.9743 41.0842C27.8859 41.0842 35.9486 33.0214 35.9486 23.1098C35.9486 20.7989 35.4351 18.6419 34.6648 16.6904L29.9914 18.6419C30.5563 20.1312 30.8131 21.5692 30.8131 23.1612C30.8131 30.2996 25.1127 36 17.9743 36C10.8359 36 5.13552 30.2996 5.13552 23.1612C5.13552 16.0228 10.8359 10.3224 17.9743 10.3224C19.515 10.3224 21.0043 10.5792 22.4936 11.1441L24.2397 6.31669C23.0585 5.90585 21.826 5.70043 20.5421 5.49501V5.18688H25.6776V0.0513552H10.271V0ZM35.9486 5.9572C35.9486 5.9572 17.204 20.388 16.2282 21.3638C15.2525 22.3909 15.2525 23.8802 16.2282 24.9073C17.204 25.9344 18.7446 25.9344 19.7718 24.9073C20.7989 23.8802 36 5.9572 36 5.9572H35.9486Z" fill="currentColor"/>
+        </svg>          
+        <div class="text-center mt-2">
+          <p class="text-md font-bold text-red-500">03.00.00</p>
+          <p class="text-xs">Working Hours</p>
+        </div>
+      </div>
+      <div class="items-center flex flex-col">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mr-2 flex-shrink-0 text-pink-700 order-first" viewBox="0 0 20 20" fill="currentColor">
+          <path fill-rule="evenodd" d="M6.7 4.3a1 1 0 011.4 0l2.5 2.5a1 1 0 01-1.4 1.4L8 7.42V14a1 1 0 11-2 0V7.41L4.7 8.7a1 1 0 01-1.4-1.4l2.5-2.5zM14 10a1 1 0 100 2h-1a1 1 0 000 2h1a3 3 0 100-6zm-9 2a1 1 0 110-2H4a1 1 0 110 2h1z" clip-rule="evenodd" />
+        </svg>
+        <div class="text-center mt-2">
+          <p class="text-sm">--:--</p>
+          <p class="text-xs">Check Out</p>
+        </div>
+      </div>      
+    </div>
+  </div>
+  <!-- Section News -->
+  <div class="mx-3 px-4">
+    <h3 class="font-bold mb-2">PCS News</h3>
+    <div class="splide">
+      <div class="splide__track">
+        <div class="splide__list">
+          <div class="w-full border-2 border-white p-6 splide__slide">
+            <div class="space-y-2">
+              <div class="flex justify-between">
+                <div class="flex">
+                  <div class="w-6 h-6 bg-gray-300 rounded-full mr-2"></div>
+                  <p class="font-semibold text-sm text-red-500">Ana Riswati</p>
+                </div>
+                <div class="text-xs">
+                  <p>Senin</p>
+                  <p>30 Mei 2022</p>
+                </div>
+              </div>
+              <p class="text-gray-600 text-sm">
+                tailwind card slider with splidejs It is a long established
+                fact that a reader will be distracted.
+                tailwind card slider with splidejs It is a long established
+                fact that a reader will be distracted.
+              </p>
+            </div>
+          </div>
+          <div class="w-full p-4 shadow splide__slide">
+            <div class="space-y-2">
+              <div class="flex justify-between">
+                <div class="flex">
+                  <div class="w-6 h-6 bg-gray-300 rounded-full mr-2"></div>
+                  <p class="font-semibold text-sm text-red-500">Ana Riswati</p>
+                </div>
+                <div class="text-xs">
+                  <p>Selasa</p>
+                  <p>31 Mei 2022</p>
+                </div>
+              </div>
+              <p class="text-gray-600 text-sm">
+                tailwind card slider with splidejs It is a long established
+                fact that a reader will be distracted.
+                tailwind card slider with splidejs It is a long established
+                fact that a reader will be distracted.
+              </p>
+            </div>
+          </div>
+          <div class="w-full p-4 shadow splide__slide">
+            <div class="space-y-2">
+              <div class="flex justify-between">
+                <div class="flex">
+                  <div class="w-6 h-6 bg-gray-300 rounded-full mr-2"></div>
+                  <p class="font-semibold text-sm text-red-500">Ana Riswati</p>
+                </div>
+                <div class="text-xs">
+                  <p>Rabu</p>
+                  <p>1 Juni 2022</p>
+                </div>
+              </div>
+              <p class="text-gray-600 text-sm">
+                tailwind card slider with splidejs It is a long established
+                fact that a reader will be distracted.
+                tailwind card slider with splidejs It is a long established
+                fact that a reader will be distracted.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Section Online   -->
+  <div class="mx-3 px-4 mb-8">
+    <h3 class="font-bold mb-2">Online</h3>
+    <div class="p-4 rounded-lg overflow-hidden shadow-lg">
+      <div class="px-4 py-2 flex -space-x-4">
+        <script>
+          for (let i = 0; i < 4; i++) {
+            document.write(`
+              <div class="items-center flex flex-col">
+                <div class="w-10 h-10 bg-gray-300 rounded-full mr-2"></div>
+                <p class="font-semibold text-xs">Jefri</p>
+                <p class="font-thin text-xs">CEO</p>
+              </div>
+              <div class="items-center flex flex-col">
+                <div class="w-10 h-10 bg-blue-300 rounded-full mr-2"></div>
+                <p class="font-semibold text-xs">Jefri</p>
+                <p class="font-thin text-xs">CEO</p>
+              </div>
+          `);
+          }
+        </script>
+        <div class="items-center flex flex-col">
+          <div class="w-10 h-10 bg-gradient-to-b from-red-500 to-pink-700 rounded-full mr-2">
+            <p class="text-xs font-bold text-center text-white">10 More</p>
+          </div>
+        </div>  
+      </div>
+    </div>    
+  </div>
+  <div class="sticky z-10 bottom-0 py-4 px-16 bg-white shadow-inner flex justify-between">
+    <div class="items-center flex flex-col">
+      <svg class="h-6 w-6 flex-shrink-0 text-red-500" width="38" height="40" viewBox="0 0 38 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M13.2696 37.5467V31.4312C13.2696 29.8701 14.5443 28.6046 16.1169 28.6046H21.8652C22.6204 28.6046 23.3446 28.9024 23.8786 29.4325C24.4126 29.9626 24.7125 30.6816 24.7125 31.4312V37.5467C24.7078 38.1957 24.9641 38.8198 25.4247 39.2804C25.8854 39.741 26.5121 40 27.1659 40H31.0877C32.9193 40.0047 34.6775 39.2857 35.9743 38.0016C37.2712 36.7175 38 34.974 38 33.1556V15.7337C38 14.2649 37.3441 12.8717 36.2092 11.9293L22.868 1.35174C20.5473 -0.502877 17.2222 -0.442996 14.9708 1.49396L1.93402 11.9293C0.745481 12.8439 0.0351046 14.2413 0 15.7337V33.1379C0 36.9277 3.09476 40 6.91235 40H10.7446C12.1025 40 13.206 38.9124 13.2158 37.5645L13.2696 37.5467Z" fill="currentColor"/>
+      </svg> 
+      <p class="text-xs text-red-500">Home</p>       
+    </div>
+    <div class="items-center flex flex-col">
+      <svg class="h-6 w-6 flex-shrink-0 text-gray-300" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M28.68 0C35.46 0 40 4.76 40 11.84V28.182C40 35.24 35.46 40 28.68 40H11.34C4.56 40 0 35.24 0 28.182V11.84C0 4.76 4.56 0 11.34 0H28.68ZM28.36 14C27.68 13.32 26.56 13.32 25.88 14L17.62 22.26L14.12 18.76C13.44 18.08 12.32 18.08 11.64 18.76C10.96 19.44 10.96 20.54 11.64 21.24L16.4 25.98C16.74 26.32 17.18 26.48 17.62 26.48C18.08 26.48 18.52 26.32 18.86 25.98L28.36 16.48C29.04 15.8 29.04 14.7 28.36 14Z" fill="currentColor"/>
+      </svg>         
+      <p class="text-xs text-gray-300 mt-1">Attendence</p>       
+    </div>
+    <div class="relative">
+      <div class="h-12 w-12 bg-gradient-to-tr from-pink-500 to-red-500 absolute -top-2/3 right-1/2 transform translate-x-1/2 rounded-full flex items-center justify-center">
+        <svg class="h-6 w-6 flex-shrink-0" width="42" height="40" viewBox="0 0 42 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M18.9855 0C23.9506 0 28 3.98 28 8.88V18.46H15.7907C14.9157 18.46 14.2238 19.14 14.2238 20C14.2238 20.84 14.9157 21.54 15.7907 21.54H28V31.1C28 36 23.9506 40 18.9448 40H9.03488C4.04942 40 0 36.02 0 31.12V8.9C0 3.98 4.06977 0 9.05523 0H18.9855ZM33.0804 13.1004C33.6804 12.4804 34.6604 12.4804 35.2604 13.0804L41.1004 18.9004C41.4004 19.2004 41.5604 19.5804 41.5604 20.0004C41.5604 20.4004 41.4004 20.8004 41.1004 21.0804L35.2604 26.9004C34.9604 27.2004 34.5604 27.3604 34.1804 27.3604C33.7804 27.3604 33.3804 27.2004 33.0804 26.9004C32.4804 26.3004 32.4804 25.3204 33.0804 24.7204L36.2804 21.5404L28 21.54V18.46L36.2804 18.4604L33.0804 15.2804C32.4804 14.6804 32.4804 13.7004 33.0804 13.1004Z" fill="white"/>
+        </svg>          
+      </div>
+      <p class="text-xs text-gray-300 mt-5">Check Out</p>       
+    </div>
+    
+    <div class="items-center flex flex-col">
+      <svg class="h-6 w-6 flex-shrink-0 text-gray-300" width="34" height="40" viewBox="0 0 34 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M19.5049 0C20.0198 0 20.4158 0.42 20.4158 0.92V7.36C20.4158 11.02 23.4059 14.02 27.0297 14.04C28.5347 14.04 29.7228 14.06 30.6337 14.06L30.971 14.0585C31.5798 14.0539 32.3993 14.04 33.1089 14.04C33.604 14.04 34 14.44 34 14.94V31.02C34 35.98 30.0198 40 25.1089 40H9.34653C4.19802 40 0 35.78 0 30.58V9.02C0 4.06 4 0 8.93069 0H19.5049ZM21.6238 25.8H10.8515C10.0396 25.8 9.36634 26.46 9.36634 27.28C9.36634 28.1 10.0396 28.78 10.8515 28.78H21.6238C22.4356 28.78 23.1089 28.1 23.1089 27.28C23.1089 26.46 22.4356 25.8 21.6238 25.8ZM17.5446 15.8H10.8515C10.0396 15.8 9.36634 16.48 9.36634 17.3C9.36634 18.12 10.0396 18.78 10.8515 18.78H17.5446C18.3564 18.78 19.0297 18.12 19.0297 17.3C19.0297 16.48 18.3564 15.8 17.5446 15.8ZM23.3014 1.812C23.3014 0.95 24.337 0.522 24.9291 1.144C27.0697 3.392 30.8103 7.322 32.9014 9.518C33.4796 10.124 33.0558 11.13 32.2222 11.132C30.5945 11.138 28.6756 11.132 27.2954 11.118C25.1053 11.118 23.3014 9.296 23.3014 7.084V1.812Z" fill="currentColor"/>
+      </svg>         
+      <p class="text-xs text-gray-300">Form</p>       
+    </div>
+    <div class="items-center flex flex-col">
+      <svg class="h-6 w-6 flex-shrink-0 text-gray-300" width="38" height="40" viewBox="0 0 38 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M20.4342 0C21.9467 0 23.3161 0.84 24.0724 2.08C24.4403 2.68 24.6856 3.42 24.6242 4.2C24.5834 4.8 24.7673 5.4 25.0943 5.96C26.1367 7.66 28.4464 8.3 30.245 7.34C32.2685 6.18 34.8234 6.88 35.9884 8.86L37.3578 11.22C38.5433 13.2 37.8892 15.74 35.8453 16.88C34.108 17.9 33.4948 20.16 34.5372 21.88C34.8642 22.42 35.2322 22.88 35.8044 23.16C36.5198 23.54 37.0717 24.14 37.46 24.74C38.2163 25.98 38.1549 27.5 37.4191 28.84L35.9884 31.24C35.2322 32.52 33.8218 33.32 32.3707 33.32C31.6553 33.32 30.8582 33.12 30.2041 32.72C29.6727 32.38 29.0595 32.26 28.4055 32.26C26.382 32.26 24.6856 33.92 24.6242 35.9C24.6242 38.2 22.7438 40 20.3933 40H17.6136C15.2427 40 13.3623 38.2 13.3623 35.9C13.3214 33.92 11.6249 32.26 9.60146 32.26C8.92697 32.26 8.31379 32.38 7.80281 32.72C7.14876 33.12 6.3312 33.32 5.63626 33.32C4.16465 33.32 2.75435 32.52 1.9981 31.24L0.587795 28.84C-0.168453 27.54 -0.209331 25.98 0.546917 24.74C0.873944 24.14 1.48712 23.54 2.18205 23.16C2.75435 22.88 3.12225 22.42 3.46972 21.88C4.49167 20.16 3.8785 17.9 2.14117 16.88C0.117695 15.74 -0.536358 13.2 0.628674 11.22L1.9981 8.86C3.18357 6.88 5.71802 6.18 7.76194 7.34C9.54014 8.3 11.8498 7.66 12.8922 5.96C13.2192 5.4 13.4031 4.8 13.3623 4.2C13.3214 3.42 13.5462 2.68 13.9346 2.08C14.6908 0.84 16.0602 0.04 17.5523 0H20.4342ZM19.0239 14.36C15.815 14.36 13.2192 16.88 13.2192 20.02C13.2192 23.16 15.815 25.66 19.0239 25.66C22.2329 25.66 24.7673 23.16 24.7673 20.02C24.7673 16.88 22.2329 14.36 19.0239 14.36Z" fill="currentColor"/>
+      </svg>         
+      <p class="text-xs text-gray-300">Setting</p>       
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.2/dist/js/splide.min.js"></script>
+  <script>
+    var splide = new Splide('.splide', {
+      type: 'loop',
+      perPage: 1,
+      rewind: true,
+    });
+
+    splide.mount();
+  </script>
+  
+</body>
+</html>
